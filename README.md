@@ -1,5 +1,7 @@
-# ai
-experimenting with ai/ml for pentesting
+# tool-ai
+- experimenting with ai/ml for pentesting
+
+this script obtains the syntax for a penetration testing tool from OpenAI's ChatGPT.
 
 - pip install -r reqs.txt
 
