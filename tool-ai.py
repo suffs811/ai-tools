@@ -7,14 +7,17 @@
 #
 # usage: python3 tool-ai.py <tool>
 
+
 import openai
 import argparse
+
 
 # set up the argument parser to accept the name of the cybersecurity tool as input
 parser = argparse.ArgumentParser(description="Generate syntax for using a cybersecurity tool.")
 parser.add_argument("tool_name", help="The name of the cybersecurity tool to generate syntax for.")
 args = parser.parse_args()
 tool = args.tool_name
+
 
 # load OpenAI API credentials from the environment variables
 openai.api_key_path = "/var/key"
@@ -27,6 +30,7 @@ prompt = (
     "Syntax for the gobuster tool: 'gobuster dir -u IP -w WORDLIST'. Syntax for the nikto tool: 'nikto -h IP -t 3 -ask no'. "
     "Provide the syntax for using {} during a penetration test in less than 10 words."
     )
+
 
 # define a function to generate the response from the OpenAI API
 def generate_response(prompt):
