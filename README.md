@@ -25,6 +25,7 @@ or
 
 `python3 sum-ai.py <path_to_report>`
 
+## note
 *you will need to save your OpenAI API key to a file at /var/key (or you can change the source code to reflect where your key is)*
 
 you can get your API key at https://platform.openai.com/account/api-keys 
