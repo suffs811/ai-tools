@@ -1,6 +1,10 @@
 # ai penetration testing tools (experimental)
 ### experimenting with ai/ml for pentesting
 
+download the scripts by running:
+
+`git clone https://github.com/suffs811/ai.git`
+
 ## before you begin
 >run the following command to download the required python packages
 
