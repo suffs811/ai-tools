@@ -5,7 +5,7 @@
 # read the README.md file for more details; software distributed under MIT license
 # <> purpose: ask OpenAI's chatGPT to provide the syntax for using a sudoable/SUID binary for privilege escalation from GTFObins.
 #
-# usage: python3 sum-ai.py <suid/sudo> -b <binary/file name>
+# usage: python3 priv-ai.py <suid/sudo> -b <binary/file name>
 
 
 import openai
