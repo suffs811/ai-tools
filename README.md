@@ -3,7 +3,7 @@
 
 download the scripts by running:
 
-`git clone https://github.com/suffs811/ai.git`
+`git clone https://github.com/suffs811/AI-API-Tools.git`
 
 ## before you begin
 >run the following command to download the required python packages
